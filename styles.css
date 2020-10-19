@@ -1,0 +1,42 @@
+body {
+  background-image: url('https://lh3.googleusercontent.com/proxy/6w43yM5DFrQYkd1kXETE-AxUK-xKVHJec1xE28MW0V-VuoUDq-tXf9MvMKCTBOkE-D_3BKW6-oYcAa98Fw8fxcs7DbXc4grsaK8Ztp12AJsoMAW22F-71RJP78LO8Nw0UZZadA');
+}
+
+.title-container {
+  height: 150px;
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+.button-container {
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tableClass {
+  text-align: left;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.country-class {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.total-class {
+  font-size: 30px;
+  text-decoration: underline;
+}
