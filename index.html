@@ -16,6 +16,11 @@
   <div class ="button-container">
   <div id="button"><h2>Press Here</h2></div>
   </div>
+  <br>
+  <div class='footer-container'>
+    <div class='footer'><a href="https://github.com/raywray/creativeproject2.git"><u>GitHub</u></a></div>
+  </div>
+
 </body>
 
 <script>
@@ -53,9 +58,30 @@
         table.className = "tableClass";
         countryHead.className = "country-class";
         totalHead.className = "total-class";
+
+        var blankRow = document.createElement("tr");
+        var blankHead = document.createElement("td");
+        var emptyHead = document.createElement("td");
+        blankHead.innerHTML = " ";
+        emptyHead.innerHTML = " ";
+        blankRow.appendChild(blankHead);
+        blankRow.appendChild(emptyHead);
+        table.appendChild(blankRow);
+
+        var blankRow = document.createElement("tr");
+        var blankHead = document.createElement("td");
+        var emptyHead = document.createElement("td");
+        blankHead.innerHTML = " ";
+        emptyHead.innerHTML = " ";
+        blankRow.appendChild(blankHead);
+        blankRow.appendChild(emptyHead);
+        table.appendChild(blankRow);
       });
 
   });
 
 </script>
+
+
+
 </html>

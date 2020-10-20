@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://lh3.googleusercontent.com/proxy/6w43yM5DFrQYkd1kXETE-AxUK-xKVHJec1xE28MW0V-VuoUDq-tXf9MvMKCTBOkE-D_3BKW6-oYcAa98Fw8fxcs7DbXc4grsaK8Ztp12AJsoMAW22F-71RJP78LO8Nw0UZZadA');
+  background-image: url("unnamed.png");;
 }
 
 .title-container {
@@ -39,4 +39,28 @@ h2 {
 .total-class {
   font-size: 30px;
   text-decoration: underline;
+}
+
+.white-space {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0px;
+  border: 1px solid #ff8800; /*dark orange*/
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+  height: 50px;
+  flex: 1;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Oswlad', serif;
 }
